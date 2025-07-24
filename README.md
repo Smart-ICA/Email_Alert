@@ -108,7 +108,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 Once installed, the environment will be ready to send emails via Gmail API.
 Don't forget to set up python3 path in mads.ini.
 
-##Run the Plugin
+## Run the Plugin
 
 Once everything is configured and compiled, you can run the plugin:
 
@@ -118,7 +118,7 @@ mads sink email_alert.plugin
 
 This will start the plugin, which will listen to the topic and send email alerts if critical thresholds are exceeded.
 
-Authors
+## Authors
 
 Main author:
 Léandre Reynard (Université Savoie Mont-Blanc)

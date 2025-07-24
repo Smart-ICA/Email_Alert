@@ -61,22 +61,28 @@ temperature_threshold = 30
 
 The plugin uses OAuth2 for Gmail authentication. To authenticate, you need to set up a project in the Google Cloud Console and enable the Gmail API.
 
+
 1. Create a Google Cloud Project
+
 
 * Go to [Google Cloud Console](https://console.cloud.google.com).
 * Create a new project (if needed).
 * Enable the Gmail API.
 * Create OAuth2 credentials for the application :
+  
+  - Select "OAuth client ID".
+  - Configure the OAuth consent screen.
+  - Download the credentials.json file.
 
-        Select "OAuth client ID".
-        Configure the OAuth consent screen.
-        Download the credentials.json file.
 
 2. Save the OAuth Credentials
 
+
 Place the downloaded credentials.json in the same directory as email_alert.py.
 
+
 3. First Execution to Authenticate
+
 
 When running the script for the first time, you will be prompted to allow access to your Gmail account via OAuth2 authentication. Follow the on-screen instructions to retrieve the authorization code.
 
